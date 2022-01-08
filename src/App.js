@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+import TextBlockOverImage from './components/TextBlockOverImage';
+import W3SchoolImage from './components/W3SchoolImage';
+import W3SchoolTraparentText from './components/W3SchoolTraparentText';
+import W3SchoolTraparentTextSelf from './components/W3SchoolTraparentTextSelf';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <W3SchoolImage />
+   <W3SchoolTraparentText />
+   <W3SchoolTraparentTextSelf />
+   <TextBlockOverImage />
     </div>
   );
 }
