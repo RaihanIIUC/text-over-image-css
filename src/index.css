@@ -166,3 +166,29 @@ input[type=text]:focus , input[type=password]:focus{
 }
 
 
+/* six one starts */
+.container-six{
+    position: relative;
+    margin: 5rem;
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container-six img{
+    vertical-align:  middle;
+
+  }
+  .img-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .img-block > * {
+    padding-left: 2rem;
+  }
